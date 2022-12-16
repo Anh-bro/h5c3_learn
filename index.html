@@ -1,96 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>第一个页面</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
-<body id="top">
-    <!-- 表单域 -->
-    <form action="demo.php">
-        
-    </form>
-    <!-- 自定义列表 -->
-    <dl>
-        <dt>关注我们</dt>
-        <dd>新浪微博</dd>
-        <dd>官方微信</dd>
-        <dd>联系我们</dd>
-    </dl>
-    <!-- 有序列表 -->
-    <ol>
-        <li>第一个 </li>
-        <li>第二个 </li>
-        <li>第三个 </li>
-    </ol>
-    <!-- 无序列表 -->
-    <ul>
-        <li>榴莲</li>
-        <li>臭豆腐</li>
-        <li>鲱鱼罐头</li>
-    </ul>
-    <table width="500" height="249" border="1" cellspacing="0" >
-        <tr>
-            <td></td>
-            <td colspan="2"></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-    </table>
-    <!--这是一串注释-->
-    <a href="#strong"><h4>锚点链接</h4></a>
-    <h4>网页元素的链接</h4>
-    <a href="http://baidu.com"><img src="images/8chong.jpg" alt="file not found" width="500"></a>
-    <h4>下载文件</h4>
-    <a href="images/table.png">下载文件</a>
-    <h4>空链接</h4>
-    <a href="#">空链接</a>
-    <h4>内部标签</h4>
-    <a href="asd.html">内部标签</a>
-    <h4>外部链接</h4>
-    <a href="http://bg.nah1.top" target="_blank">腾讯</a>
-    <img src="https://mbdp01.bdstatic.com/static/landing-pc/img/logo_top.79fdb8c2.png"/>
-    <h4>调整图片边框</h4>
-    <img src="images/table.png" title="这是吸血鬼幸存者的武器合成表" alt="file not found" width="500" border="20"/>
 
-    <h4>调整图片宽度</h4>
-    <img src="table.png" title="这是吸血鬼幸存者的武器合成表" alt="file not found" width="500"/>
-    
-    <h4>调整图片高度</h4>
-    <img src="table.png" title="这是吸血鬼幸存者的武器合成表" alt="file not found" height="500"/>
-    
-    <h4>调整图片宽度和高度</h4>
-    <img src="table.png" title="这是吸血鬼幸存者的武器合成表" alt="file not found" height="500" width="500"/>
-    <div>
-        <h1>hello,world!</h1>
-        <p>
-            据中国载人航天工程办公室消息，在载人飞船与空间站组合体成功实现自主快速交会对接后，神舟十五号航天员乘组从飞船返回舱进入轨道舱。<br/>完成各项准备后，北京时间2022年11月30日7时33分，翘盼已久的神舟十四号航天员乘组顺利打开“家门”，热情欢迎远道而来的亲人入驻“天宫”。
-            <p>
-                随后，“胜利会师”的两个航天员乘组，一起在中国人自己的“太空家园”里留下了一张足以载入史册的太空合影。
-            </p>
-        </p>
-        <strong>我是加粗的文字</strong>
-        <b>我是加粗的文字</b>
-        <em>我是加粗的文字</em>
-        <i>我是加粗的文字</i>
-        我是<del>删除</del>的文字
-        我是<s>删除</s>的文字
-        我是<ins>下划线</ins>的文字
-        我是<u>下划线</u>的文字
+<body>
+    <div class="w header">
+        <div class="logo">
+            <img src="images/logo.png" alt="">
+        </div>
+
+        <div class="nav">
+            <ul>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">课程</a></li>
+                <li><a href="#">职业规划</a></li>
+            </ul>
+        </div>
+
+        <div class="search">
+            <input type="text" value="请输入关键词">
+            <button></button>
+        </div>
+
+        <div class="user">
+            <img src="images/QQ图片20221125222615.jpg" alt="">
+            qq-lilei
+        </div>
     </div>
-    <img src="table.png" title="这是吸血鬼幸存者的武器合成表"/>
-    <h4 >alt文本的使用：</h4>
-    <img src="tale.png" alt="file not found"/>
-    <h4 id="strong">给图片设置大小</h4>
-    <a href="#top">返回顶部</a>
+
+    <div class="banner w">
+        <div class="subnav">
+            <ul>
+                <li><a href="">前端开发 <span>&gt;</span></a></li>
+                <li><a href="">前端开发 <span>&gt;</span></a></li>
+                <li><a href="">前端开发 <span>&gt;</span></a></li>
+                <li><a href="">前端开发 <span>&gt;</span></a></li>
+                <li><a href="">前端开发 <span>&gt;</span></a></li>
+                <li><a href="">前端开发 <span>&gt;</span></a></li>
+                <li><a href="">前端开发 <span>&gt;</span></a></li>
+                <li><a href="">前端开发 <span>&gt;</span></a></li>
+                <li><a href="">前端开发 <span>&gt;</span></a></li>
+            </ul>
+        </div>
+
+        <div class="course">
+            <h2>我的课程表</h2>
+            <div class="bd">
+                <ul>
+                    <li>
+                        <h4>继续学习 程序设计语言</h4>
+                        <p>正在学习-使用对象</p>
+                    </li>
+                    <li>
+                        <h4>继续学习 程序设计语言</h4>
+                        <p>正在学习-使用对象</p>
+                    </li>
+                    <li>
+                        <h4>继续学习 程序设计语言</h4>
+                        <p>正在学习-使用对象</p>
+                    </li>
+                </ul>
+                <a href="#">全部课程</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="goods w">
+        <h3>精品推荐</h3>
+        <ul>
+            <li><a href="#">jQuery</a></li>
+            <li><a href="#">jQuery</a></li>
+            <li><a href="#">jQuery</a></li>
+            <li><a href="#">jQuery</a></li>
+            <li><a href="#">jQuery</a></li>
+        </ul>
+        <a href="#" class="mod">修改兴趣</a>
+    </div>
 </body>
+
 </html>

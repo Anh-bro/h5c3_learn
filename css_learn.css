@@ -1,0 +1,35 @@
+body {
+    font: 16px/28px 'Microssoft Yahei';
+}
+
+h1 {
+    text-align: center;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+.gray {
+    color: #888888;
+    font-size: 12px;
+    text-align: center;
+}
+
+.search {
+    color: #666;
+    width: 100px;
+}
+
+.bth {
+    font-weight: bolder;
+}
+
+p {
+    text-indent: 2em;
+}
+
+.pic {
+    text-align: center;
+}
